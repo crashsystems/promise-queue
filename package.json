@@ -1,0 +1,14 @@
+{
+  "name": "promisequeue",
+  "version": "1.0.1",
+  "author": "Douglass Clem <crashsystems@gmail.com>",
+  "description": "A simple promise based executor of promise queues",
+  "main": "./promiseQueue.js",
+  "dependencies": {
+    "promise": "3.2.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crashsystems/promise-queue.git"
+  }
+}
