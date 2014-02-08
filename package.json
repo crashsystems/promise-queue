@@ -1,6 +1,6 @@
 {
   "name": "promisequeue",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Douglass Clem <crashsystems@gmail.com>",
   "description": "A simple promise based executor of promise queues",
   "main": "./promiseQueue.js",

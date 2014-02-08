@@ -19,7 +19,9 @@ function queue( queue, options ){
     }
     var limit = queue.length
     if( options.concurrency ){
-      limit = options.concurrency
+      if( options.concurrency < queue.length ){
+        limit = options.concurrency
+      }
     }
 
     // Track existence of queue promise rejections
